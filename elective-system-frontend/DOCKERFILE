@@ -1,0 +1,9 @@
+FROM ubuntu:22.04
+ENV SERVER ngnix
+RUN apt-get update && apt-get install -y SERVER
+RUN apt-get install npm
+WORKDIR /var/website
+VOLUME /var/website /src
+EXPOSE 80
+RUN npm install && npm run build
+CMD ["node","dist"]

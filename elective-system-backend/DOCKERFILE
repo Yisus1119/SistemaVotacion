@@ -1,0 +1,7 @@
+FROM ubuntu:22.04
+RUN apt-get update && apt-get install -y npm
+WORKDIR /var/website/api
+VOLUME /var/website/api /src
+EXPOSE 8080
+RUN npm install && npm run prod
+CMD ["node","dist/bin/www.binary.js"]
