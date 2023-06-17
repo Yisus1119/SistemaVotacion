@@ -200,5 +200,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
+credentials.txt
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,node,visualstudiocode
