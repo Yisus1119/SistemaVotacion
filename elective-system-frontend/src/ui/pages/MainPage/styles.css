@@ -1,3 +1,8 @@
+* {
+	font-weight: 450;
+	font-family: "roboto";
+}
+
 .div-top-slide {
 	width: 90% !important;
 	margin: 2em auto 0 auto;
@@ -15,15 +20,30 @@
 
 .div-body {
 	width: 70%;
-	margin: 0 auto;
+	margin: 4% auto 0 auto;
 }
 
 .div-body p {
-	text-align: center;
+	text-align: justify;
 	font-size: 1.6em;
 }
 
 .div-body-logos-container {
 	display: flex;
 	justify-content: space-around;
+	margin: 4em auto;
+}
+
+.div-body-logos-container-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.div-body-top-text {
+	text-align: center !important;
+}
+
+.div-body-logos-container-item-text {
+	font-size: 1.3em !important;
 }
