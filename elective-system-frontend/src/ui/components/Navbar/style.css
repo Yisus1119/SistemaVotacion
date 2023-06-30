@@ -1,3 +1,41 @@
 .div-btn-votation {
-	width: 85% !important;
+	width: 78% !important;
+}
+
+.navbar {
+	background-color: #98d8aa !important;
+}
+
+.navbar-brand {
+	color: #fff;
+	background-color: #f7aa4a;
+	padding: 0.3em 2em !important;
+	border-radius: 20px;
+}
+
+.nav-item-who {
+	color: #fff !important;
+	background-color: #fe646f;
+	padding: 0.6em 2em !important;
+	margin-right: 1em;
+}
+
+.nav-item-how {
+	color: #fff;
+	background-color: #1895ff;
+	padding: 0.6em 2em !important;
+}
+
+.nav-item-how-init {
+	color: #fff;
+	background-color: #5c8984;
+	padding: 0.6em 2em !important;
+}
+
+.nav-link {
+	border-radius: 20px;
+}
+
+.nav-link:hover {
+	color: #000 !important;
 }

@@ -25,28 +25,44 @@ import Logo from "../../components/Logo/Logo.vue";
 				electrónica de cambio y empoderamiento."
 			</p>
 			<article class="div-body-logos-container">
-				<div>
+				<div class="div-body-logos-container-item">
 					<img
-						src="../../../assets/vectors/precision.png"
+						src="../../../assets/vectors/Presition.svg"
 						alt="IMG"
+						width="200"
+						height="200"
 					/>
-					<p>Lorem ipsum dolor sit amet.</p>
+					<p class="div-body-logos-container-item-text">
+						Precision y velocidad
+					</p>
 				</div>
-				<div>
+				<div class="div-body-logos-container-item">
 					<img
-						src="../../../assets/vectors/participacion.png"
+						src="../../../assets/vectors/Participation.svg"
 						alt="IMG"
+						width="200"
+						height="200"
 					/>
-					<p>Lorem ipsum dolor sit amet.</p>
+					<p class="div-body-logos-container-item-text">
+						Mayor participacion
+					</p>
 				</div>
-				<div>
+				<div class="div-body-logos-container-item">
 					<img
-						src="../../../assets/vectors/flexibilidad.png"
+						src="../../../assets/vectors/Flexibility.svg"
 						alt="IMG"
+						width="200"
+						height="200"
 					/>
-					<p>Lorem ipsum dolor sit amet.</p>
+					<p class="div-body-logos-container-item-text">
+						Flexibilidad y adaptabilidad
+					</p>
 				</div>
 			</article>
+
+			<p class="div-body-top-text">
+				Que esperas para unirte a esta revolucion digital?
+			</p>
 		</div>
 	</div>
 </template>

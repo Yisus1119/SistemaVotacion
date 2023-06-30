@@ -17,16 +17,23 @@
 			<div class="collapse navbar-collapse flex-wrap" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#"
+						<a
+							class="nav-link active nav-item-who"
+							aria-current="page"
+							href="#"
 							>Quienes somos?</a
 						>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Como funciona?</a>
+						<a class="nav-link nav-item-how" href="#"
+							>Como funciona?</a
+						>
 					</li>
 				</ul>
 				<div class="d-flex justify-content-end div-btn-votation">
-					<a class="nav-link" href="#">Iniciar votacion</a>
+					<a class="nav-link nav-item-how-init" href="#"
+						>Iniciar votacion</a
+					>
 				</div>
 			</div>
 		</div>
