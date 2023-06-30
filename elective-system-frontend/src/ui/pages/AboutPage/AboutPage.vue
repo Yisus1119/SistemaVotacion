@@ -66,7 +66,9 @@ import Logo from "../../components/Logo/Logo.vue";
 					<h1 class="principalTitle">Valores</h1>
 				</div>
 				<br>
-				<img class="values" src="../../../assets/vectors/ValuesList.svg" alt="team" />
+				<div class="valuesContainer">
+					<img class="values" src="../../../assets/vectors/ValuesList.svg" alt="team" />
+				</div>
 				<br>
 				<br>
 			</div>
