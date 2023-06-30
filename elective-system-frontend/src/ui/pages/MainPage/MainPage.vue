@@ -3,7 +3,7 @@ import Logo from "../../components/Logo/Logo.vue";
 </script>
 
 <template>
-	<div class="container-fluid d-flex flex-column min-vh-100">
+	<div class="container-fluid">
 		<div class="div-top-slide d-flex">
 			<div>
 				<Logo></Logo>
@@ -64,15 +64,6 @@ import Logo from "../../components/Logo/Logo.vue";
 				Que esperas para unirte a esta revolucion digital?
 			</p>
 		</div>
-
-		<footer
-			style="
-				margin-top: auto;
-				background-color: #98d8aa;
-				width: 100%;
-				height: 80px;
-			"
-		></footer>
 	</div>
 </template>
 
