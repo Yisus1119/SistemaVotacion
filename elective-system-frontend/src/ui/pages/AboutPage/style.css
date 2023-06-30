@@ -1,0 +1,24 @@
+.titleContainer {
+    text-align: center;
+}
+
+.valuesContainer{
+display: flex;
+justify-content: center;
+margin-bottom: 2em;
+}
+
+.values{
+width: 60% !important;
+margin: 0 auto !important;
+}
+
+.aboutUs {
+    width: 78px;
+    height: 78px;
+}
+
+.aboutDescription {
+    width: 70%;
+    margin: 0 auto;
+}
