@@ -1,15 +1,16 @@
 .div-btn-votation {
-	width: 78% !important;
+	margin-left: auto !important;
 }
 
 .navbar {
 	background-color: #98d8aa !important;
+	height: 4em;
 }
 
 .navbar-brand {
-	color: #fff;
+	color: #fff !important;
 	background-color: #f7aa4a;
-	padding: 0.3em 2em !important;
+	padding: 0.6em 2em !important;
 	border-radius: 20px;
 }
 
@@ -21,21 +22,24 @@
 }
 
 .nav-item-how {
-	color: #fff;
+	color: #fff !important;
 	background-color: #1895ff;
 	padding: 0.6em 2em !important;
 }
 
 .nav-item-how-init {
-	color: #fff;
+	color: #fff !important;
 	background-color: #5c8984;
 	padding: 0.6em 2em !important;
 }
 
 .nav-link {
 	border-radius: 20px;
+	font-size: 15px !important;
 }
 
 .nav-link:hover {
+	background-color: #fff;
 	color: #000 !important;
+	border: 1px solid #000;
 }
