@@ -1,0 +1,10 @@
+.div-top-slide {
+	width: 90% !important;
+	margin: 0 auto;
+}
+
+.div-top-slide .div-top-slide-column {
+	width: 50% !important;
+	margin: 0 auto;
+	text-align: center;
+}
