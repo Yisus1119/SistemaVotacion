@@ -1,10 +1,29 @@
 .div-top-slide {
 	width: 90% !important;
-	margin: 0 auto;
+	margin: 2em auto 0 auto;
 }
 
 .div-top-slide .div-top-slide-column {
 	width: 50% !important;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.div-top-slide .div-top-slide-column p {
+	font-size: 1.6em;
+}
+
+.div-body {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.div-body p {
+	text-align: center;
+	font-size: 1.6em;
+}
+
+.div-body-logos-container {
+	display: flex;
+	justify-content: space-around;
 }
