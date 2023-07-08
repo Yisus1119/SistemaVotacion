@@ -47,3 +47,9 @@
 .div-body-logos-container-item-text {
 	font-size: 1.3em !important;
 }
+
+
+.div-body-logos-container-item:hover {
+	transform: scale(1.4);
+	transition: transform .9s; 
+}

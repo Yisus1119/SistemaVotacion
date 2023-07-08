@@ -2,15 +2,15 @@
     text-align: center;
 }
 
-.valuesContainer{
-display: flex;
-justify-content: center;
-margin-bottom: 2em;
+.valuesContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
 }
 
-.values{
-width: 60% !important;
-margin: 0 auto !important;
+.values {
+    width: 60% !important;
+    margin: 0 auto !important;
 }
 
 .aboutUs {
@@ -21,4 +21,9 @@ margin: 0 auto !important;
 .aboutDescription {
     width: 70%;
     margin: 0 auto;
+}
+
+.aboutUs:hover {
+    transform: scale(1.4);
+    transition: transform .9s;
 }
