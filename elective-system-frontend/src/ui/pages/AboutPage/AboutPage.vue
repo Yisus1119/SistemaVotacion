@@ -10,9 +10,9 @@ import Logo from "../../components/Logo/Logo.vue";
 			</div>
 			<div class="div-top-slide-column">
 				<div class="titleContainer">
+					<br>
 					<img class="aboutUs" src="../../../assets/vectors/equipo.png" alt="team" />
-
-					<h1 class="principalTitle">¿Quiénes somos?</h1>
+					<h1 class="principalTitle animate__animated animate__fadeInLeft">¿Quiénes somos?</h1>
 				</div>
 				<p class="aboutDescription"><b>
 						Somos un equipo de dos apasionados desarrolladores que compartimos un objetivo común: solucionar el
@@ -30,10 +30,9 @@ import Logo from "../../components/Logo/Logo.vue";
 						experiencia de votación para todos los ciudadanos.</b>
 				</p>
 				<br>
-
 				<div class="titleContainer">
 					<img class="aboutUs" src="../../../assets/vectors/mision.png" alt="team" />
-					<h1 class="principalTitle">Misión</h1>
+					<h1 class="principalTitle animate__animated animate__fadeInRightBig">Misión</h1>
 				</div>
 				<p class="aboutDescription"><b>
 						Nuestra misión es transformar la forma en que se lleva a cabo la votación en nuestro país, brindando
@@ -45,10 +44,9 @@ import Logo from "../../components/Logo/Logo.vue";
 						de fácil uso. </b>
 				</p>
 				<br>
-
 				<div class="titleContainer">
 					<img class="aboutUs" src="../../../assets/vectors/vision.png" alt="team" />
-					<h1 class="principalTitle">Visión</h1>
+					<h1 class="principalTitle animate__animated animate__fadeInLeft">Visión</h1>
 				</div>
 				<p class="aboutDescription"><b>
 						Nuestra visión es ser líderes en el desarrollo de soluciones tecnológicas para la votación,
@@ -59,11 +57,10 @@ import Logo from "../../components/Logo/Logo.vue";
 						modernizar y optimizar sus procesos.</b>
 				</p>
 				<br>
-
 				<div class="titleContainer">
 					<img class="aboutUs" src="../../../assets/vectors/valores.png" alt="team" />
 
-					<h1 class="principalTitle">Valores</h1>
+					<h1 class="principalTitle animate__animated animate__fadeInLeft">Valores</h1>
 				</div>
 				<br>
 				<div class="valuesContainer">
@@ -75,6 +72,5 @@ import Logo from "../../components/Logo/Logo.vue";
 		</div>
 	</div>
 </template>
-
 
 <style scoped src="./style.css"></style>

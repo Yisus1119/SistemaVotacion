@@ -1,0 +1,33 @@
+.titleContainer {
+    margin-top: 1em;
+    text-align: center;
+    width: 90;
+    height: 90;
+}
+
+.howItWork {
+    width: 78px;
+    height: 78px;
+}
+
+.aboutDescription {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* .butttonContainer{
+    width: auto;
+    margin: 0 auto;
+} */
+
+.manualButton {
+    width: 200px;
+    background-color: #526D82;
+}
+
+.buttonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 4em;
+}
