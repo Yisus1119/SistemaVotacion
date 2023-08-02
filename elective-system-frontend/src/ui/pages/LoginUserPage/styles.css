@@ -1,0 +1,63 @@
+* {
+	font-weight: 450;
+	font-family: "roboto";
+}
+
+.div-body {
+	width: 70%;
+	margin: 0 auto 0 auto;
+}
+
+.div-body p {
+	font-size: 1.3em;
+}
+
+.div-body-titles {
+	text-align: center;
+}
+
+.div-body-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.div-body-form input {
+	width: 40%;
+	margin-bottom: 1em;
+}
+
+.div-body-form-btns {
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.elections-container {
+	width: 70%;
+	margin: 8em auto 0 auto;
+}
+
+.elections-group {
+	background-color: #f5f5f5;
+	padding: 1.5em;
+	border-radius: 10px;
+}
+
+.elections-items-dates {
+	display: flex;
+	justify-content: space-between;
+}
+
+.elections-items-element-date {
+	display: flex;
+	align-items: center;
+}
+
+.elections-items-element-date p {
+	margin: 0 0.5em 0 0;
+}
+
+.elections-items-element-date input {
+	height: 2.5em;
+}
