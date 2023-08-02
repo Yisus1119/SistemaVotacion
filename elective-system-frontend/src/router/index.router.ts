@@ -21,7 +21,14 @@ const routes: RouteRecordRaw[] = [
 		name: "How it work",
 		component: HowItWorkPage,
 	},
-	{ path: "/login", name: "Login User", component: LoginUserPageVue },
+	{
+		path:"/admin-login",
+		name: "Sign In as admin",
+		component: AdminLogin
+	},
+	{ path: "/login", 
+	name: "Login User", 
+	component: LoginUserPageVue },
 ];
 
 const router = createRouter({
