@@ -34,7 +34,7 @@ import Logo from "../../components/Logo/Logo.vue";
 					</b>
 				</p>
 				<div class="buttonContainer">
-					<button type="button" class="btn btn-secondary manualButton">Desplegar manual</button>
+					<button type="button" class="btn btn-secondary manualButton" onclick="window.open('https://drive.google.com/file/d/13P3RX8kqGIcVX6hiOyGTr-PC__HcT1VV/view?usp=sharing'); return true;">Desplegar manual</button>
 				</div>
 			</div>
 		</div>

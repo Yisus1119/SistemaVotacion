@@ -2,6 +2,7 @@ import { RouteRecordRaw, createRouter, createWebHistory } from "vue-router";
 import MainPage from "../ui/pages/MainPage/MainPage.vue";
 import AboutPage from "../ui/pages/AboutPage/AboutPage.vue";
 import HowItWorkPage from "../ui/pages/HowItWorksPage/HowItWorksPage.vue"
+import AdminLogin from "../ui/pages/AdminLogin/AdminLogin.vue";
 
 const routes: RouteRecordRaw[] = [
 	{
@@ -19,6 +20,11 @@ const routes: RouteRecordRaw[] = [
 		name: "How it work",
 		component: HowItWorkPage,
 	},
+	{
+		path: "/admin-login",
+		name: "Login as admin",
+		component: AdminLogin,
+	}
 ];
 
 const router = createRouter({

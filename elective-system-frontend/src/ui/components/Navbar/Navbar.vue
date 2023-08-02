@@ -23,6 +23,7 @@
 				<div class="d-flex justify-content-end div-btn-votation">
 					<a class="nav-link nav-item-how-init nav-link" href="#">Iniciar votacion</a>
 				</div>
+
 			</div>
 		</div>
 	</nav>
