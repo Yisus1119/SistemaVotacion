@@ -1,7 +1,8 @@
 import { RouteRecordRaw, createRouter, createWebHistory } from "vue-router";
 import MainPage from "../ui/pages/MainPage/MainPage.vue";
 import AboutPage from "../ui/pages/AboutPage/AboutPage.vue";
-import HowItWorkPage from "../ui/pages/HowItWorksPage/HowItWorksPage.vue"
+import HowItWorkPage from "../ui/pages/HowItWorksPage/HowItWorksPage.vue";
+import LoginUserPageVue from "../ui/pages/LoginUserPage/LoginUserPage.vue";
 import AdminLogin from "../ui/pages/AdminLogin/AdminLogin.vue";
 
 const routes: RouteRecordRaw[] = [
@@ -20,11 +21,7 @@ const routes: RouteRecordRaw[] = [
 		name: "How it work",
 		component: HowItWorkPage,
 	},
-	{
-		path: "/admin-login",
-		name: "Login as admin",
-		component: AdminLogin,
-	}
+	{ path: "/login", name: "Login User", component: LoginUserPageVue },
 ];
 
 const router = createRouter({
