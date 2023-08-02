@@ -1,0 +1,32 @@
+.principalTitle {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+
+.loginImage {
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -4em;
+}
+
+.container-sm{
+    margin-top: 3em;
+    width: 33em;
+}
+
+.userControl{
+    background-color: #F5F5F5;
+}
+
+.btnIngresar{
+    display: block;
+    margin: 0 auto;
+    width: 10em;
+}
+
+.buttonContainer{
+    margin-top: 2em;
+}

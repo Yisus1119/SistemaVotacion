@@ -52,6 +52,7 @@
 						>Iniciar votacion</router-link
 					>
 				</div>
+
 			</div>
 		</div>
 	</nav>
