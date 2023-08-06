@@ -1,0 +1,31 @@
+.principalTitle {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -2em;
+}
+
+.maintenanceContainer {
+    background-color: #98D8AA;
+    width: 60em;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.navBar {
+    width: 25em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+}
+
+.table {
+    width: 50em;
+}
+
+.btnActions {
+    margin: 0.5em;
+}
+
+.actionsFields {
+    width: 13em;
+}

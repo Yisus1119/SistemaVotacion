@@ -6,6 +6,7 @@ import LoginUserPageVue from "../ui/pages/LoginUserPage/LoginUserPage.vue";
 import AdminLogin from "../ui/pages/AdminLogin/AdminLogin.vue";
 import CandidatesSelection from "../ui/pages/CandidatesSelection/CandidatesSelection.vue";
 import UserSelection from "../ui/pages/UserSelection/UserSelection.vue";
+import CandidatesList from "../ui/pages/CandidatesList/CandidatesList.vue";
 
 const routes: RouteRecordRaw[] = [
 	{
@@ -41,6 +42,10 @@ const routes: RouteRecordRaw[] = [
 		path: "/user-selection",
 		name: "user selection",
 		component: UserSelection
+	}, {
+		path: "/candidates-maintenance",
+		name: "Candidates list",
+		component: CandidatesList
 	}
 ];
 
