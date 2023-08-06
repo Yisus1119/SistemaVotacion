@@ -1,0 +1,71 @@
+.elections-items-title {
+	text-align: center;
+}
+.elections-items-times {
+	text-align: center;
+}
+
+.items-time-group {
+	display: flex;
+	justify-content: center;
+}
+
+.item-time {
+	margin: 2em 2em;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+.item-number {
+	background-color: #ffffff !important;
+	padding: 0.5em;
+	margin-bottom: 0.8em;
+}
+
+.text-title {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.btn-action {
+	width: 10%;
+	margin: 2em 45%;
+}
+
+.select-container {
+	width: 15%;
+	margin: 0 auto;
+}
+
+.graphics-container {
+	width: 100%;
+}
+
+.graphics {
+	height: 33em;
+	width: 35%;
+	margin: 1em auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.graph-column {
+	background-color: #fff;
+	width: 100%;
+	height: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+
+.graph-colum-container {
+	width: 100%;
+	margin: 0 1.5em;
+}
+
+.pusher {
+	height: 100%;
+	width: 100%;
+	background-color: blueviolet;
+}
