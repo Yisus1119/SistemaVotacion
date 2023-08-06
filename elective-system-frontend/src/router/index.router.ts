@@ -4,8 +4,11 @@ import AboutPage from "../ui/pages/AboutPage/AboutPage.vue";
 import HowItWorkPage from "../ui/pages/HowItWorksPage/HowItWorksPage.vue";
 import LoginUserPageVue from "../ui/pages/LoginUserPage/LoginUserPage.vue";
 import AdminLogin from "../ui/pages/AdminLogin/AdminLogin.vue";
-import CandidatesSelection from "../ui/pages/CandidatesSelection/CandidatesSelection.vue";
-import UserSelection from "../ui/pages/UserSelection/UserSelection.vue";
+import ElectionMainPageVue from "../ui/pages/ElectionMainPage/ElectionMainPage.vue";
+import ResultsPageVue from "../ui/pages/ResultsPage/ResultsPage.vue";
+import CandidatesSelectionVue from "../ui/pages/CandidatesSelection/CandidatesSelection.vue";
+import UserSelectionVue from "../ui/pages/UserSelection/UserSelection.vue";
+import CandidatesMaintenance from "../ui/pages/CandidatesList/CandidatesList.vue";
 
 const routes: RouteRecordRaw[] = [
 	{
@@ -26,21 +29,37 @@ const routes: RouteRecordRaw[] = [
 	{
 		path: "/admin-login",
 		name: "Sign In as admin",
-		component: AdminLogin
+		component: AdminLogin,
+	},
+	{ path: "/login", name: "Login User", component: LoginUserPageVue },
+	{
+		path: "/election-main",
+		name: "Election Main",
+		component: ElectionMainPageVue,
+	},
+	{
+		path: "/results",
+		name: "Results",
+		component: ResultsPageVue,
 	},
 	{
 		path: "/login",
 		name: "Login User",
-		component: LoginUserPageVue
+		component: LoginUserPageVue,
 	},
 	{
 		path: "/candidates-selection",
 		name: "Select candidates",
-		component: CandidatesSelection
-	}, {
+		component: CandidatesSelectionVue,
+	},
+	{
 		path: "/user-selection",
 		name: "user selection",
-		component: UserSelection
+		component: UserSelectionVue
+	},{
+		path: "/candidates-maintenance",
+		name: "Candidates list",
+		component: CandidatesMaintenance
 	}
 ];
 
