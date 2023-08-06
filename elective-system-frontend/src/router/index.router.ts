@@ -4,6 +4,8 @@ import AboutPage from "../ui/pages/AboutPage/AboutPage.vue";
 import HowItWorkPage from "../ui/pages/HowItWorksPage/HowItWorksPage.vue";
 import LoginUserPageVue from "../ui/pages/LoginUserPage/LoginUserPage.vue";
 import AdminLogin from "../ui/pages/AdminLogin/AdminLogin.vue";
+import CandidatesSelection from "../ui/pages/CandidatesSelection/CandidatesSelection.vue";
+import UserSelection from "../ui/pages/UserSelection/UserSelection.vue";
 
 const routes: RouteRecordRaw[] = [
 	{
@@ -22,13 +24,24 @@ const routes: RouteRecordRaw[] = [
 		component: HowItWorkPage,
 	},
 	{
-		path:"/admin-login",
+		path: "/admin-login",
 		name: "Sign In as admin",
 		component: AdminLogin
 	},
-	{ path: "/login", 
-	name: "Login User", 
-	component: LoginUserPageVue },
+	{
+		path: "/login",
+		name: "Login User",
+		component: LoginUserPageVue
+	},
+	{
+		path: "/candidates-selection",
+		name: "Select candidates",
+		component: CandidatesSelection
+	}, {
+		path: "/user-selection",
+		name: "user selection",
+		component: UserSelection
+	}
 ];
 
 const router = createRouter({

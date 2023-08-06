@@ -22,7 +22,7 @@ import Logo from "../../components/Logo/Logo.vue";
 			<div class="div-body-form">
 				<input type="number" />
 				<div class="div-body-form-btns">
-					<button class="btn btn-success">Leer instrucciones</button>
+					<button @click="$router.push('user-manual')" class="btn btn-success">Leer instrucciones</button>
 					<button class="btn btn-primary">Ingresar</button>
 				</div>
 			</div>

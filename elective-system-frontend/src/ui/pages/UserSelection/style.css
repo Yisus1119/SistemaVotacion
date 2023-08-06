@@ -1,0 +1,40 @@
+.principalTitle {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -2em;
+}
+
+.sdgpve {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.properties {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.yourSelectionButton {
+    background-color: #5C8984;
+}
+
+.selectionContainer {
+    margin-top: 1em;
+    width: 50em;
+}
+
+.deleteSelection {
+    height: 40px;
+    float: right;
+}
+
+.deleteSelection:hover {
+    cursor: pointer;
+}
+
+.btnConfirm {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1.5em;
+}
