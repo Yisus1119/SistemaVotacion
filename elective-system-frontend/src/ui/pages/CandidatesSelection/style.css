@@ -1,0 +1,41 @@
+.principalTitle {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -2em;
+}
+
+.sdgpve {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.properties {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.dropDownSelection {
+    width: 15em;
+    margin: 0 auto;
+}
+
+.selectContainer {
+    margin-top: 2em;
+}
+
+.yourSelectionButton {
+    background-color: #5C8984;
+}
+
+.btnDropDown {
+    background-color: #5C8984;
+}
+
+.btnVotar{
+    background-color: #5C8984;
+}
+
+.card{
+    margin-bottom: 2em;
+}

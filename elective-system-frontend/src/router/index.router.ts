@@ -6,6 +6,8 @@ import LoginUserPageVue from "../ui/pages/LoginUserPage/LoginUserPage.vue";
 import AdminLogin from "../ui/pages/AdminLogin/AdminLogin.vue";
 import ElectionMainPageVue from "../ui/pages/ElectionMainPage/ElectionMainPage.vue";
 import ResultsPageVue from "../ui/pages/ResultsPage/ResultsPage.vue";
+import CandidatesSelectionVue from "../ui/pages/CandidatesSelection/CandidatesSelection.vue";
+import UserSelectionVue from "../ui/pages/UserSelection/UserSelection.vue";
 
 const routes: RouteRecordRaw[] = [
 	{
@@ -38,6 +40,21 @@ const routes: RouteRecordRaw[] = [
 		path: "/results",
 		name: "Results",
 		component: ResultsPageVue,
+	},
+	{
+		path: "/login",
+		name: "Login User",
+		component: LoginUserPageVue,
+	},
+	{
+		path: "/candidates-selection",
+		name: "Select candidates",
+		component: CandidatesSelectionVue,
+	},
+	{
+		path: "/user-selection",
+		name: "user selection",
+		component: UserSelectionVue,
 	},
 ];
 
