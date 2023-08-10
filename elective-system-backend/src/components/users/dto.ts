@@ -5,6 +5,8 @@ interface UserData {
 	password: string;
 }
 
+interface UserDataWithoutPass extends Omit<UserData, "password"> {}
+
 interface UserDataRead {
 	name: string;
 }
