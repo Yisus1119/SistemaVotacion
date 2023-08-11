@@ -14,7 +14,9 @@ class App {
 		this.server.use(router);
 	}
 
-	middlewares() {}
+	middlewares() {
+		this.server.use(express.json());
+	}
 
 	listen(callback: () => void): void {
 		this.server.listen(this.port, callback);

@@ -1,7 +1,8 @@
-const users: User[] = [
-	{ name: "jesusa", dni: "232114521" },
-	{ name: "diego", dni: "565232423" },
-];
+import { getModelDb } from "../../services/db/connect.service";
+import { DB_ENTITIES } from "../../services/db/interfaces";
+
+const { data } = getModelDb(DB_ENTITIES.USERS);
+const users = data as User[];
 
 export function getUserModel(name: string): User | null {
 	return users.filter((element) => element.name == name)[0] ?? null;
