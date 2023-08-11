@@ -1,6 +1,6 @@
 interface CandidateData {
     politicImage: string,
-    cadidateImage: string,
+    candidateImage: string,
     name: string,
     candidatePosition: string,
 }

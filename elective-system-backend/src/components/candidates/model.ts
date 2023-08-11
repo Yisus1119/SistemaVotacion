@@ -7,6 +7,6 @@ const candidates: Candidate[] = [
     },
 ];
 
-export function getCandidateModel(candidatePosition: string): Candidate | null {
-	return candidates.filter((element) => element.candidatePosition == candidatePosition)[0] ?? null;
+export function getCandidateModel(candidatePosition: string): Candidate[] | null {
+    return candidates.filter((element) => element.candidatePosition == candidatePosition) ?? null;
 }

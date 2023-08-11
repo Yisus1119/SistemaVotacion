@@ -1,5 +1,23 @@
 <script setup lang="ts">
 import Logo from "../../components/Logo/Logo.vue";
+
+import { ref, onMounted } from "vue";
+const nombreVotante = ref("");
+onMounted(() => {
+	fetch("http://localhost:3000/api/authenticate/", {
+		method: "POST",
+		headers: {
+			"Content-Type": 'application/json',
+		},
+		body: JSON.stringify({ dni: "232114521" })
+	})
+		.then(e => {
+			e.json().then(o => {
+				nombreVotante.value = o.data[0].name;
+			})
+		})
+})
+
 </script>
 
 <template>
@@ -9,7 +27,7 @@ import Logo from "../../components/Logo/Logo.vue";
 				<Logo></Logo>
 			</div>
 		</div>
-		<p class="text-title">Bienvenido al sistema [NOMBRE_VOTANTE]</p>
+		<p class="text-title">Bienvenido al sistema {{ nombreVotante }}</p>
 
 		<div class="elections-container">
 			<h4>Eleccion proxima</h4>

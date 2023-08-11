@@ -49,6 +49,9 @@ import Logo from "../../components/Logo/Logo.vue";
 			</div>
 		</div>
 	</div>
+	<iframe id="online-alarm-kur-iframe"
+		src="https://embed-countdown.onlinealarmkur.com/es/#2024-01-01T00:00:00@America%2FLa_Paz" width="360" height="80"
+		style="display: block; margin: 0px auto; border: 0px;"></iframe>
 </template>
 
 <style scoped src="./styles.css"></style>
