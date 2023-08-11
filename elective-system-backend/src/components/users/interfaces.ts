@@ -1,4 +1,1 @@
-interface User {
-	name: string;
-	dni: string;
-}
+interface User extends Omit<UserData, "password"> {}
